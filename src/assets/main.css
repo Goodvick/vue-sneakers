@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+body {
+  background-color: rgba(54, 209, 186, 0.504);
+  font-family: 'Inter', sans-serif;
+}
+
+.block-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 20%));
+  justify-content: center;
+}
+.content-grid:hover {
+  .content-grid_img {
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 8px;
+    transition-delay: 0.25s;
+  }
+}
